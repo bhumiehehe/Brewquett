@@ -1,0 +1,230 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brewquet – Where Coffee Blooms and Petals Pour</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Cormorant+Garamond&family=Lato&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --blush: #fce6ec;
+      --lavender: #e9d5ec;
+      --sakura-white: #fff8f9;
+      --muted-green: #d5e5d9;
+      --rose-gold: #b76e79;
+      --text-color: #4a3f35;
+    }body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: var(--sakura-white);
+  color: var(--text-color);
+  overflow-x: hidden;
+}
+
+header {
+  position: relative;
+  height: 100vh;
+  background: url('hero-image.jpg') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--text-color);
+  padding: 2rem;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  z-index: 1;
+}
+
+header .hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+
+.hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.cta-buttons a {
+  padding: 0.8rem 1.5rem;
+  margin: 0.5rem;
+  background: var(--blush);
+  color: var(--text-color);
+  border: 1px solid var(--rose-gold);
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.cta-buttons a:hover {
+  background: var(--lavender);
+  box-shadow: 0 0 10px rgba(183, 110, 121, 0.3);
+}
+
+.section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.5rem;
+  color: var(--rose-gold);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.story {
+  line-height: 1.8;
+}
+
+blockquote {
+  border-left: 4px solid var(--rose-gold);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: #7a5963;
+}
+
+.menu-category {
+  margin-bottom: 2rem;
+  background: var(--blush);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.menu-category h3 {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px dotted #ccc;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.footer {
+  background: url('footer-bg.jpg') center/cover;
+  padding: 2rem;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+}
+
+.footer a {
+  color: var(--text-color);
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+  </style>
+</head>
+<body>  <header>
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">Welcome to Brewquet – Where Coffee Blooms and Petals Pour</h1>
+      <p class="hero-subtitle">A poetic café experience inspired by cherry blossoms and slow love.</p>
+      <div class="cta-buttons">
+        <a href="#menu">Explore the Menu</a>
+      </div>
+    </div>
+  </header>  <section id="our-story" class="section">
+    <h2 class="section-title">Our Story</h2>
+    <div class="story">
+      <p>Bhumi, a dreamer in love with flowers, always carried wild blooms in her journal...</p>
+      <p>Aaryan, quiet but thoughtful, would place a fresh flower on her college desk every Monday...</p>
+      <blockquote>“He brought me flowers before he brought me coffee.” – Bhumi</blockquote>
+      <blockquote>“She taught me that blooms speak louder than words.” – Aaryan</blockquote>
+    </div>
+  </section>  <section id="menu" class="section">
+    <h2 class="section-title">Our Menu</h2><div class="menu-category">
+  <h3>Blossom Brews</h3>
+  <div class="menu-item"><span>Sakura Cloud Latte</span><span>₹220</span></div>
+  <div class="menu-item"><span>Petal Cold Brew</span><span>₹210</span></div>
+  <div class="menu-item"><span>Blooming Matcha</span><span>₹230</span></div>
+</div>
+
+<div class="menu-category">
+  <h3>Iced Refreshers</h3>
+  <div class="menu-item"><span>Cherry Bloom Lemonade</span><span>₹180</span></div>
+  <div class="menu-item"><span>Lychee Rose Fizz</span><span>₹190</span></div>
+  <div class="menu-item"><span>Citrus Garden Iced Tea</span><span>₹175</span></div>
+</div>
+
+<div class="menu-category">
+  <h3>Blossom Bites</h3>
+  <div class="menu-item"><span>Sakura Shortbread Cookies</span><span>₹110</span></div>
+  <div class="menu-item"><span>Petal-Pressed Macarons</span><span>₹140</span></div>
+  <div class="menu-item"><span>Chiffon Flower Cake</span><span>₹195</span></div>
+</div>
+
+<div class="menu-category">
+  <h3>Seasonal Specials</h3>
+  <div class="menu-item"><span>Bloom Toast</span><span>₹210</span></div>
+  <div class="menu-item"><span>Rose Garden Salad</span><span>₹230</span></div>
+</div>
+
+<div class="menu-category">
+  <h3>Add-Ons</h3>
+  <div class="menu-item"><span>Mini Bloom Bouquet</span><span>₹120</span></div>
+</div>
+
+  </section>  <section id="gallery" class="section">
+    <h2 class="section-title">Ambience Gallery</h2>
+    <div class="gallery">
+      <img src="C:\Users\aarya\OneDrive\Pictures\petal ceiling.jpg" alt="Petal Ceiling">
+      <img src="C:\Users\aarya\Downloads\matcha latte.jpg" alt="Matcha Latte">
+      <img src="C:\Users\aarya\Downloads\flower setup.jpg" alt="Flower Setup">
+      <img src="C:\Users\aarya\Downloads\table setup.jpg" alt="Tablescape">
+    </div>
+    <p style="text-align:center; font-style:italic; margin-top:1rem;">Smells like spring rain and roses.</p>
+  </section>  <section class="section" style="text-align:center">
+    <h2 class="section-title">Come sip, bloom, and be inspired.</h2>
+    <div class="cta-buttons">
+      <a href="#visit">Visit Us</a>
+      <a href="#order">Order a Bloom Box</a>
+      <a href="#follow">Follow Our Petals</a>
+    </div>
+  </section>  <footer class="footer">
+    <p><strong>Location:</strong> Near City Center, Bharuch, Gujarat, India</p>
+    <p><strong>Hours:</strong> Daily from 12:00 PM – 8:00 PM</p>
+    <p><strong>Follow Us:</strong> 
+      <a href="#">Instagram</a> | 
+      <a href="#">LinkedIn</a>
+    </p>
+    <p><em>Brewquet – Crafted with petals & poured with love.</em></p>
+  </footer></body>
+</html>
